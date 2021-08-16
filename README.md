@@ -1,5 +1,5 @@
 # A-robust-registration-loss
-Deep leanring, rigid registration, intersected lines
+Deep learning, rigid registration, intersected lines
 - Data prepartions
 - Data
 - Loss
