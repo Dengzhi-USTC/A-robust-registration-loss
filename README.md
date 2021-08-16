@@ -4,4 +4,4 @@ Deep leanring, rigid registration, intersected lines
 - Data
 - Loss
 - Model
-- visualize results
+- visualize point cloud tools
