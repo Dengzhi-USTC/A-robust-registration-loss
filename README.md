@@ -1,7 +1,6 @@
 # A-robust-registration-loss
 Deep learning, rigid registration, intersected lines, unsupervised learning
-'''{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Some cool caption', out.width='0.75\linewidth', fig.pos='H'}
-knitr::include_graphics("./data/introduce_our_loss.pdf")'''
+![Optimized proceess of our metric](./data/introduce_our_loss.pdf){width=65%}
 - Data prepartions
 You can generate your own datasets by this.
 - Data
