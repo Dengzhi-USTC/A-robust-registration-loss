@@ -1,6 +1,6 @@
 # A-robust-registration-loss
 Deep learning, rigid registration, intersected lines, unsupervised learning
-![Optimized proceess of our metric](./data/introduce_our_loss.pdf){width=65%}
+[Optimized proceess of our metric](./data/introduce_our_loss.pdf){width=65%}
 - Data prepartions 
 You can generate your own datasets by this.
 - Data
