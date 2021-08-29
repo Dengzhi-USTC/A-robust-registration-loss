@@ -6,6 +6,4 @@ Optimize the comparison between a single example and Chamfer-Distance.
 The above two points show that our metric is essentially different from Chamfer distance optimization.
 
 ![](./comparision_with_CD.png)
-<center class = "half">
-<img src = './src_tgt1.PNG' width = '100'> <img src = './trans_tgt1.PNG' width = '100'>
-</center>
+![](./optimized_single_case.png)
