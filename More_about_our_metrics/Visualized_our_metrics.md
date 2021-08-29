@@ -7,5 +7,5 @@ The above two points show that our metric is essentially different from Chamfer 
 
 ![](./comparision_with_CD.png)
 <center class = "half">
-<img src = './src_tgt1.PNG' width = '210'> <img src = './trans_tgt1.PNG' width = '210'>
+<img src = './src_tgt1.PNG' width = '200'> <img src = './trans_tgt1.PNG' width = '200'>
 </center>
