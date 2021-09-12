@@ -6,6 +6,47 @@ import numpy as np
 import os
 import torch
 from scipy.spatial.transform import Rotation
+import json
+
+
+def dict_all_to_device(tensor_dict, device):
+    """Sends everything into a certain device """
+    for k in tensor_dict:
+        if isinstance(tensor_dict[k], torch.Tensor):
+            tensor_dict[k] = tensor_dict[k].to(device)
+
+
+def Dict2txt_json(file_path, dict, file_type='txt'):
+    filename = open(file_path, 'w')
+    if file_type == 'txt':
+        for k, v in dict.items():
+            filename.write(k + ':' + str(v))
+            filename.write('\n')
+            filename.close()
+    else:
+        jsonstr = json.dumps(dict)
+        filename.write(jsonstr)
+        filename.close()
+
+
+def transform_point_cloud(point_cloud, rotation, translation):
+    if len(rotation.size()) == 2:
+        rot_mat = quat2mat(rotation)
+    else:
+        rot_mat = rotation
+    return torch.matmul(rot_mat, point_cloud) + translation.unsqueeze(2)
+
+
+# where, points: (B, N, 3) R:(B, 3, 3) T:(B, 1, 3)
+def transform_point_cloud_point_based(point_cloud, rotation, translation):
+    if len(rotation.size()) == 2:
+        rot_mat = quat2mat(rotation)
+    else:
+        rot_mat = rotation
+    rot_mat = rot_mat.transpose(2, 1)
+    update_points_neighs = point_cloud @ rot_mat + translation.reshape(
+        -1, 1, 3)
+    return update_points_neighs
 
 
 def quat2mat(quat):
@@ -29,7 +70,7 @@ def quat2mat(quat):
 def npmat2euler(mats, seq='zyx'):
     eulers = []
     for i in range(mats.shape[0]):
-        r = Rotation.from_dcm(mats[i])
+        r = Rotation.from_matrix(mats[i])
         eulers.append(r.as_euler(seq, degrees=True))
     return np.asarray(eulers, dtype='float32')
 

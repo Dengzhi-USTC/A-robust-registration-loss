@@ -108,6 +108,7 @@ def main(args):
     device = args.device if torch.cuda.is_available() else 'cpu'
     source_path = os.path.join(args.data_path, label1 + "_src_sample" + ".obj")
     target_path = os.path.join(args.data_path, label1 + "_tar_sample" + ".obj")
+    
     vertics1, faces1 = igl.read_triangle_mesh(source_path)
     vertics2, faces2 = igl.read_triangle_mesh(target_path)
     vertics1 = vertics1.astype(np.float32)

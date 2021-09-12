@@ -191,7 +191,7 @@ def cal_loss_intersection_batch_whole_median_pts_lines(s_m,
     weights_k_j_list = {str(i): [] for i in range(points1.shape[0])}
     for k in range(s_m, e_m):
         for j in range(s_n, e_n):
-            # j = k
+            # j = k(Just considerate j == i)
             label_intersection = (label_intersection_1_sum
                                   == k) * (label_intersection_2_sum == j)
             batch_intersection_lines = torch.sum(label_intersection, -1)
@@ -232,7 +232,7 @@ def cal_loss_intersection_batch_whole_median_pts_lines(s_m,
         return None, None, None
 
 
-# For Chamfer & Welsch-Chamfer
+# For Chamfer Chamfer
 def chamfer_dist(points_x, points_y):
     '''
     points_x : batchsize * M * 3
