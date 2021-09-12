@@ -12,11 +12,11 @@ Deep learning, rigid registration, intersected lines, unsupervised learning, uni
 
 ### Metric
 
-  Our metrics have different versions from the beginning of the discussion. The overall research route is from mesh data to general point cloud data. The specific loss form can refer to [loss.py](./code). Looking forward to extending our measurement to other frameworks or other areas.
+  Our metrics have different versions from the beginning of the discussion. The overall research route is from mesh data to general point cloud data. The specific loss form can refer to [loss.py] (./code). Looking forward to extending our measurement to other frameworks or other areas.
 - Experiments
-  - Optimization of a single example by embedding the metric into the traditional optimization based on Adam [Demo](./code)
+  - Optimization of a single example by embedding the metric into the traditional optimization based on Adam [Demo] (./code)
   ![](./data/supp_real_exp-1.png)
-  - Embed our metrics into deep learning and transform supervised frameworks into unsupervised frameworks,([RMP-Net](./experiments), [DCP](./experiments), [FMR](./experiments)).[Exp-DL](./code/exps_deep_learning)
+  - Embed our metrics into deep learning and transform supervised frameworks into unsupervised frameworks, ([RMP-Net] (./experiments), [DCP] (./experiments), [FMR] (./experiments)).[Exp-DL] (./code/exps_deep_learning)
 
   We also provided the [pretrained models](),
 - Cost computation
