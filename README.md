@@ -8,7 +8,7 @@ Deep learning, rigid registration, intersected lines, unsupervised learning, uni
   
   You can download the [Human dataset](https://mailustceducn-my.sharepoint.com/:u:/g/personal/zhideng_mail_ustc_edu_cn/EW8GRJG9cGRLjI0qnED90o8BJ-zTWjp9B_Y3TT4tQPncEQ?e=d2RASg), [Airplane datasets](https://mailustceducn-my.sharepoint.com/:u:/g/personal/zhideng_mail_ustc_edu_cn/Ec5mxYEoQkNHrEULFhD5ATgB5SwSQw11n5NfCyNvX2jLSQ?e=f23MQp), [Real dataset](https://mailustceducn-my.sharepoint.com/:u:/g/personal/zhideng_mail_ustc_edu_cn/EW8GRJG9cGRLjI0qnED90o8BJ-zTWjp9B_Y3TT4tQPncEQ?e=d2RASg).
 
-  You also can use our [scripts](./code/data_processing.py) to generate neigh-points to retrain your datasets, but please refer to the training details in our papers.
+  You also can use our [scripts](./code/data_processing.py) to generate neigh-points to retrain on your datasets, but please refer to the training details in our papers.
 
 ### Metric
 
