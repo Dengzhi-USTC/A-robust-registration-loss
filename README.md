@@ -25,7 +25,7 @@ Deep learning, rigid registration, intersected lines, unsupervised learning, uni
 
 
 ### BibTex
-    @article{dengzhi2021robust, 
+    @inproceedings{dengzhi2021robust, 
     title={A Robust Loss for Point Cloud Registration}, 
         author={Zhi Deng, Yuxin Yao, Bailin Deng and Juyong Zhang},
         journal={ICCV},
