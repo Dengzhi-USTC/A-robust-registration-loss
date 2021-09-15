@@ -33,6 +33,8 @@ Deep learning, rigid registration, intersected lines, unsupervised learning, uni
         journal={ICCV},
     year={2021} 
 }
+### Notes
+If you have comments or questions, please contact ZhiDeng[zhideng@mail.ustc.edu.cn]().
 ### Acknowledgement
 
   We would like to thank the authors of [DCP_code](https://github.com/tzodge/PCR-CMU/tree/main/DCP_Code), [RPM-Net_code](https://github.com/tzodge/PCR-CMU/tree/main/RPMNet_Code), [FMR_code](https://github.com/XiaoshuiHuang/fmr), [FRICP](https://github.com/yaoyx689/Fast-Robust-ICP), [FGR](https://github.com/isl-org/FastGlobalRegistration) for making their codes available.
