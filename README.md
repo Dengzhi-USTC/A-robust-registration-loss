@@ -1,4 +1,5 @@
-# [A Robust Loss for Point Cloud Registration](https://arxiv.org/pdf/2108.11682.pdf)
+# A Robust Loss for Point Cloud Registration
+This repository is the implementation of our ICCV 2021 paper [A Robust Loss for Point Cloud Registration](https://arxiv.org/pdf/2108.11682.pdf)
 Deep learning, rigid registration, intersected lines, unsupervised learning, uniform distributions, iccv2021.
 ![](./data/introduce_our_loss.png)
 ## Setup
