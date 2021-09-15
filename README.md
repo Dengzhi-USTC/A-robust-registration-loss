@@ -27,6 +27,7 @@ Authors: Zhi Deng, Yuxin Yao, [Bailin Deng](http://www.bdeng.me/) and [Juyong Zh
 
 
 ### BibTex
+Please cite the following papers if it helps your research:<br>
     @inproceedings{dengzhi2021robust, 
     title={A Robust Loss for Point Cloud Registration}, 
         author={Zhi Deng, Yuxin Yao, Bailin Deng and Juyong Zhang},
