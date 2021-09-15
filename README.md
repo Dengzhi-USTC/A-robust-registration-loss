@@ -1,6 +1,6 @@
 # A Robust Loss for Point Cloud Registration
-This repository is the implementation of our ICCV 2021 paper [A Robust Loss for Point Cloud Registration](https://arxiv.org/pdf/2108.11682.pdf)<br>
-Authors: Zhi Deng, Yuxin Yao, [Bailin Deng](http://www.bdeng.me/) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/)
+This repository is the implementation of our ICCV 2021 paper [A Robust Loss for Point Cloud Registration](https://arxiv.org/pdf/2108.11682.pdf).<br>
+Authors: Zhi Deng, Yuxin Yao, [Bailin Deng](http://www.bdeng.me/) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/).
 
 ![](./data/introduce_our_loss.png)
 ## Setup
