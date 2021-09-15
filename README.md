@@ -33,7 +33,7 @@ Authors: Zhi Deng, Yuxin Yao, [Bailin Deng](http://www.bdeng.me/) and [Juyong Zh
         journal={The IEEE International Conference on Computer Vision (ICCV)},
     year={2021}}
 ### Notes
-If you have comments or questions, please contact Zhi Deng([zhideng@mail.ustc.edu.cn]()), Yao Yuxin ([yaoyuxin@mail.ustc.edu.cn]()), Bailin Deng ([DengB3@cardiff.ac.uk]()), Juyong Zhang ([Juyong Zhang@ustc.edu.cn]()).
+If you have comments or questions, please contact Zhi Deng([zhideng@mail.ustc.edu.cn]()), Yuxin Yao([yaoyuxin@mail.ustc.edu.cn]()), Bailin Deng ([DengB3@cardiff.ac.uk]()), Juyong Zhang ([Juyong Zhang@ustc.edu.cn]()).
 ### Acknowledgement
 
   We would like to thank the authors of [DCP_code](https://github.com/tzodge/PCR-CMU/tree/main/DCP_Code), [RPM-Net_code](https://github.com/tzodge/PCR-CMU/tree/main/RPMNet_Code), [FMR_code](https://github.com/XiaoshuiHuang/fmr), [FRICP](https://github.com/yaoyx689/Fast-Robust-ICP), [FGR](https://github.com/isl-org/FastGlobalRegistration) for making their codes available.
