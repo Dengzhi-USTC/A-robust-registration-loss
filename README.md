@@ -18,7 +18,7 @@ Authors: Zhi Deng, Yuxin Yao, [Bailin Deng](http://www.bdeng.me/) and [Juyong Zh
 - Experiments
   - Optimization of a single example by embedding the metric into the traditional optimization based on Adam [Demo](./code)
   ![](./data/supp_real_exp-1.png)
-  - Embed our metrics into deep learning and transform supervised frameworks into unsupervised frameworks, ([RMP-Net](./experiments), [DCP](./experiments), [FMR](./experiments)). [Exp-DL](./code/exps_deep_learning) We also provided the [pretrained models](https://mailustceducn-my.sharepoint.com/:u:/g/personal/zhideng_mail_ustc_edu_cn/EZ1nYTksRa1JndRj7c6wV4IB9wfSr3ataJV8NE0b4EZYtQ?e=PIJsFB),
+  - Embed our metrics into deep learning and transform supervised frameworks into unsupervised frameworks, ([RMP-Net](./experiments), [DCP](./experiments), [FMR](./experiments)). [Exp-DL](./code/exps_deep_learning). We also provided the [pretrained models](https://mailustceducn-my.sharepoint.com/:u:/g/personal/zhideng_mail_ustc_edu_cn/EZ1nYTksRa1JndRj7c6wV4IB9wfSr3ataJV8NE0b4EZYtQ?e=PIJsFB),
 - Cost computation
   
 ![](./data/Computation_cost.png)
@@ -30,7 +30,7 @@ Authors: Zhi Deng, Yuxin Yao, [Bailin Deng](http://www.bdeng.me/) and [Juyong Zh
     @inproceedings{dengzhi2021robust, 
     title={A Robust Loss for Point Cloud Registration}, 
         author={Zhi Deng, Yuxin Yao, Bailin Deng and Juyong Zhang},
-        journal={ICCV},
+        journal={The IEEE International Conference on Computer Vision (ICCV)},
     year={2021} 
 }
 ### Notes
