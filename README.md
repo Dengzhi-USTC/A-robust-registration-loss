@@ -22,7 +22,7 @@ The implemtement details of our metric are in the [loss.py](./code). Looking for
   
 ![](./data/Computation_cost.png)
 
-- Visualize the the energy of optimizing a single example ( Refer the [More visualization](./More_about_our_metrics/Visualized_our_metrics.md))
+- Energy visualization of optimizing a single example (refer to the [More visualization](./More_about_our_metrics/Visualized_our_metrics.md))
 
 
 ### BibTex
@@ -32,7 +32,7 @@ The implemtement details of our metric are in the [loss.py](./code). Looking for
         journal={The IEEE International Conference on Computer Vision (ICCV)},
     year={2021}}
 ### Notes
-If you have comments or questions, please contact Zhi Deng([zhideng@mail.ustc.edu.cn]()), Yuxin Yao([yaoyuxin@mail.ustc.edu.cn]()), Bailin Deng ([DengB3@cardiff.ac.uk]()), Juyong Zhang ([Juyong Zhang@ustc.edu.cn]()).
+If you have comments or questions, please contact Zhi Deng([zhideng@mail.ustc.edu.cn]()).
 ### Acknowledgement
 
   We would like to thank the authors of [DCP_code](https://github.com/tzodge/PCR-CMU/tree/main/DCP_Code), [RPM-Net_code](https://github.com/tzodge/PCR-CMU/tree/main/RPMNet_Code), [FMR_code](https://github.com/XiaoshuiHuang/fmr), [FRICP](https://github.com/yaoyx689/Fast-Robust-ICP), [FGR](https://github.com/isl-org/FastGlobalRegistration) for making their codes available.
